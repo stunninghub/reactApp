@@ -21,7 +21,11 @@ body {
   width: 100%;
 }
 
-.heading {
+h1.heading {
+  position: relative;
+}
+
+.heading .heading_txt {
   font-size: 4rem;
   font-weight: 900;
   background: linear-gradient(90deg, #7cff6c, #34a3ff, #8f4dff, #ff7e56);
@@ -31,12 +35,20 @@ body {
   max-width: 27rem;
 }
 
+
+h1.heading img {
+  position: absolute;
+  top: -10px;
+  right: -26px;
+}
+
 .sub-text {
   font-size: 1.1rem;
   color: #d1d1d1;
-  margin-bottom: 35px;
+  margin: 25px 35px 0;
   line-height: 1.6;
 }
+
 .info-text {
   font-size: 0.8rem;
   color: #cfcfcfa9;
