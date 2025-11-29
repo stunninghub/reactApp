@@ -33,11 +33,7 @@ function App() {
           <img src={flareImg} alt="" width={30} />
         </h1>
 
-        <p className="sub-text">
-          Something elegant, powerful, and designed <br />
-          for creators is arriving shortly.
-          
-        </p>
+        <p className="sub-text">Something elegant, powerful, and designed for creators is arriving shortly.</p>
       </div>
     </>
   )
