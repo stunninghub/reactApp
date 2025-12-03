@@ -1,0 +1,110 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Nunito", sans-serif;
+}
+
+body {
+  background: #0f0f0f;
+  color: #fff;
+  /* display: flex;
+  justify-content: center;
+  align-items: center; */
+  min-height: 100dvh;
+}
+
+div#root {
+  width: 100%;
+}
+
+.container {
+  max-width: 700px;
+  width: 100%;
+  margin: auto;
+}
+
+h1.heading {
+  position: relative;
+  margin: auto;
+}
+
+.heading .heading_txt {
+  font-size: 4rem;
+  font-weight: 900;
+  background: linear-gradient(90deg, #7cff6c, #34a3ff, #8f4dff, #ff7e56);
+  -webkit-background-clip: text;
+  color: transparent;
+  margin: auto auto 20px;
+  max-width: 27rem;
+}
+
+
+h1.heading img {
+  position: absolute;
+  top: -10px;
+  right: -26px;
+}
+
+.sub-text {
+  font-size: 1.1rem;
+  color: #d1d1d1;
+  margin: 25px 35px 0;
+  line-height: 1.6;
+  max-width: 350px;
+}
+
+.info-text {
+  font-size: 0.8rem;
+  color: #cfcfcfa9;
+  margin-bottom: 35px;
+  line-height: 1.6;
+  font-weight: 400;
+}
+
+.input-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 30px;
+}
+
+.input-box input {
+  width: 60%;
+  padding: 16px 20px;
+  border-radius: 10px;
+  border: none;
+  outline: none;
+  background: #1c1c1c;
+  color: #fff;
+  font-size: 1rem;
+}
+
+.input-box button {
+  padding: 16px 26px;
+  border-radius: 10px;
+  border: none;
+  background: #fff;
+  color: #000;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: 0.2s ease;
+}
+
+.input-box button:hover {
+  background: #e7e7e7;
+}
+
+.footer-text {
+  margin-top: 10px;
+  color: #999;
+  font-size: 0.95rem;
+}
+
+@media screen and (max-width: 480px) {
+  .heading {
+    max-width: 15rem;
+  }
+}
